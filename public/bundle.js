@@ -1,0 +1,1 @@
+console.log("one"),console.log("four"),setTimeout((()=>{console.log("two")}),1e3),console.log("three");

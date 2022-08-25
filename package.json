@@ -1,0 +1,16 @@
+{
+  "name": "babel-webpack",
+  "version": "1.0.0",
+  "description": "babel and webpack",
+  "main": "app.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "babel": "babel src/app.js -o public/bundle.js --presets @babel/preset-env --watch",
+    "build": "webpack ./src/app.js -o ./public --mode production"
+  },
+  "author": "amir roohi",
+  "license": "ISC"
+}
