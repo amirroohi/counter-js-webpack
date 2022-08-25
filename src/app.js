@@ -1,12 +1,15 @@
-console.log("one");
+const user = "amir";
 
-function callback() {
-    console.log("four");
-    setTimeout(() => {
-        
-        console.log("two");
-    }, 1000);
-    
+const getUser = () => {
+  console.log(user);
+};
+
+getUser();
+
+class Car {
+  getBrand() {
+    console.log("not existed any brand");
+  }
 }
-callback()
-console.log("three");
+const firstCar = new Car();
+
